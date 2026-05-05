@@ -1,0 +1,9 @@
+{
+  "type": "mariadb",
+  "user": "root",
+  "password": "root",
+  "address": "localhost",
+  "port": 3306,
+  "database": "mydb",
+  "ssl": false
+}

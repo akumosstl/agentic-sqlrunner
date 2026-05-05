@@ -1,0 +1,24 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "db-config\\.json"
+      },
+      {
+        "pattern": "db-config\\.example\\.json"
+      },
+      {
+        "pattern": "org/postgresql/.*"
+      },
+      {
+        "pattern": "com/mysql/.*"
+      },
+      {
+        "pattern": "org/mariadb/.*"
+      },
+      {
+        "pattern": "org/h2/.*"
+      }
+    ]
+  }
+}

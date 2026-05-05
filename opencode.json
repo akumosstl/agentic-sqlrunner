@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "sql-runner": {
+      "type": "local",
+      "command": ["C:\\Users\\USER\\projects\\github\\agentic-sqlrunner\\target\\sql-runner.exe"],
+      "enabled": true
+    },
+     "agentic-mcp": {
+      "type": "remote",
+      "url": "http://localhost:1488/mcp",
+      "enabled": true
+    }
+  }
+}
